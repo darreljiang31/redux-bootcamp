@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Helpful Tutorials
+https://egghead.io/courses/getting-started-with-redux
+https://www.codecademy.com/learn/react-101
+https://www.codecademy.com/learn/react-102
+https://danielwestheide.com/scala/neophytes.html
+
 ## Available Scripts
 
 In the project directory, you can run:
