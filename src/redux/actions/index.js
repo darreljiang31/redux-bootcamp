@@ -1,16 +1,6 @@
-import axios from 'axios'
 
-export const toggleButton = () => {
+export const fetchPost = (dispatch) => {
   return {
-    type: 'TOGGLE_BUTTON'
+    type: 'FETCH_POST_REQUEST',
   }
-}
-
-export const fetchPost = () => async (dispatch) => {
-  const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
-  const action = {
-    type: 'FETCH_POSTS',
-    payload: response.data
-  }
-  dispatch(action)
 }
